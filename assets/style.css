@@ -387,7 +387,7 @@ header{
 }
 .article-title::first-letter{
   font-size: 2.3vmax;
-  margin-right: 2px;
+  margin-right: 1px;
   color: var(--orange-yellow-crayola);
 }
 .about-text{
@@ -588,7 +588,7 @@ header{
     font-size: 3.5vmin;
   }
   .about-text p{
-    font-size: 2.2vmin;
+    font-size: 2.3vmin;
   }
   .service-item{
     max-width: 100%;
@@ -597,7 +597,7 @@ header{
     font-size: 2.5vmin;
   }
   .service-item-text{
-    font-size: 2.2vmin;
+    font-size: 2.3vmin;
   }
 }
 
