@@ -588,16 +588,16 @@ header{
     font-size: 3.5vmin;
   }
   .about-text p{
-    font-size: 2.3vmin;
+    font-size: 2max;
   }
   .service-item{
     max-width: 100%;
   }
   .service-item-title{
-    font-size: 2.5vmin;
+    font-size: 2.5vmax;
   }
   .service-item-text{
-    font-size: 2.3vmin;
+    font-size: 2max;
   }
 }
 
