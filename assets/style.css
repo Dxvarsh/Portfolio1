@@ -507,16 +507,16 @@ header{
     font-size: 3.5vmin;
   }
   .about-text p{
-    font-size: 2vmax;
+    font-size: 1.8vmax;
   }
   .service-item{
     max-width: 100%;
   }
   .service-item-title{
-    font-size: 2.3vmax;
+    font-size: 2.1vmax;
   }
   .service-item-text{
-    font-size: 2vmax;
+    font-size: 1.8vmax;
   }
 }
 
