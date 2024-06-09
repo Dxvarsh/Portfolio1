@@ -246,6 +246,7 @@ html, body{
 
 .main-content{
   width: 75%;
+  z-index: 5;
   background: var(--eerie-black-2);
   color: var(--light-gray);
   border-radius: 20px;
@@ -385,11 +386,6 @@ header{
   font-size: 2.2vmax;
   font-weight: 900;
 }
-.article-title::first-letter{
-  font-size: 2.3vmax;
-  margin-right: 1px;
-  color: var(--orange-yellow-crayola);
-}
 .about-text{
   margin-top: 30px;
 }
@@ -507,16 +503,16 @@ header{
     font-size: 3.6vmin;
   }
   .about-text p{
-    font-size: 1.6vmax;
+    font-size: 1.3vmax;
   }
   .service-item{
     max-width: 100%;
   }
-  .service-item-title{
+  .service-item-title, .service-title{
     font-size: 2.1vmax;
   }
   .service-item-text{
-    font-size: 1.6vmax;
+    font-size: 1.3vmax;
   }
 }
 
@@ -599,8 +595,9 @@ header{
     font-size: 2vmax;
   }
 
-  .article-title{
-    font-size: 3.5vmin;
+  .article-title, .service-title{
+    font-size: 4.5vmin;
+    font-weight: 900;
   }
   .about-text p{
     font-size: 2vmax;
